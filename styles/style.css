@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* universal selector  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+/* style header section  */
+header {
+    background-image: url('/resources/Banner\ Image.png');
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.banner-text p {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 532px;
+    top: 207px;
+}
+
+.banner-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    position: absolute;
+    width: 600px;
+    height: 160px;
+    left: 430px;
+    top: 242px;
+}
+
+/* stye main section */
+.main-section {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+}
