@@ -9,7 +9,7 @@
 
 /* style header section  */
 header {
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('../resources/Banner\ Image.png');
     height: 100vh;
     background-size: cover;
 
